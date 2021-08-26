@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif
+}
+
+#container {
+    height: 900px;
+    width: 1000px;
+}
+
+#navbar {
+    height: 45px;
+    width: 100%;
+    background-color: black;
+    padding-top: 5px;
+}
+
+h1 {
+    color: white;
+    margin-left: 50px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#userProfileCard {
+    height: 245px;
+    width: 150px;
+    margin-left: 150px;
+    margin-right: 20px;
+    border: 3px solid black;
+    text-align: center;
+}
+
+#userProfileCard img {
+    height: 75px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#userProfileCard h3 {
+    margin-top: 25px;
+}
+
+.feedCard {
+    height: 150px;
+    width: 370px;
+    margin-bottom: 10px;
+    border: 3px solid black;
+}
+
+.feedInfo {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+
+}
+
+.feedInfo h3 {
+    margin-left: 20px;
+}
+
+.feedInfo .feedMargin {
+    margin-left: 140px;
+    margin-right: 25px;
+}
+
+.feedInfo .customFeedMargin {
+    margin-left: 110px;
+    margin-right: 25px
+}
+
+.feedCard p {
+    margin-left: 20px;
+}
+
+.likeBtn {
+    background-color: yellow;
+    height: 25px;
+    width: 50px;
+    box-shadow: 3px 3px black;
+}
+
+#row {
+    display: flex;
+}
